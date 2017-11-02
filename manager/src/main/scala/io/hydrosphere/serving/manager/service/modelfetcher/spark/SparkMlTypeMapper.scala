@@ -155,7 +155,7 @@ object IDFMapper extends InputOutputMapper {
   override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object Word2VecMapper extends InputOutputMapper {
-  def inputType(metadata: SparkModelMetadata): FieldType = FString
+  def inputType(metadata: SparkModelMetadata): FieldType = FMatrix.varvec(FString)
 
   def outputType(metadata: SparkModelMetadata): FieldType =
     FMatrix.vec(
