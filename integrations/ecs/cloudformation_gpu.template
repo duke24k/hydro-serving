@@ -686,7 +686,7 @@
                 }
               }
             ],
-            "Image": "060183668755.dkr.ecr.eu-west-1.amazonaws.com/manager:latest",
+            "Image": "hydrosphere/serving-manager:0.0.18",
             "MemoryReservation": 256
           }
         ],
@@ -1042,7 +1042,7 @@
                 }
               }
             ],
-            "Image": "hydrosphere/serving-manager-ui:0.0.14",
+            "Image": "hydrosphere/serving-manager-ui:0.0.17",
             "MemoryReservation": 128
           }
         ],
